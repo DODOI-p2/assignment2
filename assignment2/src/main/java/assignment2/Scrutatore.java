@@ -4,13 +4,13 @@ public class Scrutatore {
 
 	boolean fine_elezione;
 	
-	public void setFine_elezioni(boolean f) {
+	public  void setFine_elezioni(boolean f) {
 		
 		fine_elezione=f; 
 		
 	} 
 	
-	public boolean getFine_elezioni() {
+	public  boolean getFine_elezioni() {
 		
 		return fine_elezione; 
 		

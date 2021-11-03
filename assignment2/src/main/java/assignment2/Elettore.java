@@ -1,15 +1,18 @@
 package assignment2;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Elettore {
 
-	List lista_candidati = new ArrayList();
+	List<String> lista_candidati = new ArrayList<String>();
 	
-	public static void setLista_candidati(String c) {
+	public void setLista_candidati(String c) {
 		
 		lista_candidati.add(c); 
 	}
 	
-	public static List<String> getLista_candidati() {
+	public List<String> getLista_candidati() {
 		
 		return lista_candidati;	
 	}
