@@ -4,18 +4,18 @@ public class Scrutatore {
 
 	boolean fine_elezione;
 	
-	public void setFine_elezioni(int f) {
+	public static void setFine_elezioni(boolean f) {
 		
 		fine_elezione=f; 
 		
 	} 
 	
-	public int getFine_elezioni() {
+	public static boolean getFine_elezioni() {
 		
-		return fine_elezione; }
+		return fine_elezione; 
+		
+	}
 	
 	int conteggiovoti;
-	
-	string nomecandidato;
 	
 }
